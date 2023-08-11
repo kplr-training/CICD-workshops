@@ -8,6 +8,7 @@ Assurez-vous que vous disposez des éléments suivants avant de commencer :
 
 Un projet logiciel avec un système de gestion de code source (comme Git, Subversion, etc.).
 Un serveur Jenkins opérationnel. Vous pouvez l'installer localement ou sur un serveur distant.
+
 **Étape 2 : Configuration initiale de Jenkins**
 
 Accédez à l'interface Web de Jenkins en ouvrant votre navigateur et en entrant l'URL du serveur Jenkins (par exemple, http://localhost:8080 si vous l'exécutez localement).
