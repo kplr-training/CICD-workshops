@@ -2,13 +2,13 @@ Guide d'intégration d'un projet avec Jenkins
 
 Jenkins est un outil d'intégration continue largement utilisé pour automatiser le processus de construction, de test et de déploiement de projets logiciels. Suivez ce guide pour intégrer votre projet à Jenkins et profiter des avantages de l'intégration continue.
 
-Étape 1 : Prérequis
+**Étape 1 : Prérequis**
 
 Assurez-vous que vous disposez des éléments suivants avant de commencer :
 
 Un projet logiciel avec un système de gestion de code source (comme Git, Subversion, etc.).
 Un serveur Jenkins opérationnel. Vous pouvez l'installer localement ou sur un serveur distant.
-Étape 2 : Configuration initiale de Jenkins
+**Étape 2 : Configuration initiale de Jenkins**
 
 Accédez à l'interface Web de Jenkins en ouvrant votre navigateur et en entrant l'URL du serveur Jenkins (par exemple, http://localhost:8080 si vous l'exécutez localement).
 
@@ -16,7 +16,7 @@ Connectez-vous à Jenkins avec vos informations d'identification.
 
 Installez les plugins nécessaires : Une fois connecté, accédez à "Gérer Jenkins" > "Gérer les plugins" > "Disponible" et recherchez les plugins nécessaires, tels que ceux pour Git, Maven, etc. Sélectionnez les plugins pertinents et cliquez sur "Installer sans redémarrage".
 
-Étape 3 : Création d'un nouveau projet
+**Étape 3 : Création d'un nouveau projet**
 
 Cliquez sur "Nouveau projet" sur le tableau de bord Jenkins.
 
@@ -30,19 +30,19 @@ Configurez les étapes de construction et de test en fonction de votre projet. V
 
 Enregistrez la configuration du projet.
 
-Étape 4 : Déclenchement de l'intégration
+**Étape 4 : Déclenchement de l'intégration**
 
 Sur la page de détails du projet, cliquez sur "Construire maintenant" pour déclencher manuellement le processus d'intégration.
 
 Vous pouvez également configurer des déclencheurs automatiques, tels que des déclencheurs de code (sur la base de commits), des minuteries, etc.
 
-Étape 5 : Visualisation des résultats
+**Étape 5 : Visualisation des résultats**
 
 Une fois la construction terminée, accédez aux rapports de construction, aux résultats des tests et aux journaux de sortie pour identifier les problèmes éventuels.
 
 Configurez des notifications par e-mail ou d'autres méthodes pour être informé des résultats de chaque construction.
 
-Étape 6 : Intégration continue avancée (optionnelle)
+**Étape 6 : Intégration continue avancée (optionnelle)**
 
 Configurez des étapes de déploiement automatique vers des environnements de test ou de production.
 
