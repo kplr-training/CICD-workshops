@@ -6,7 +6,7 @@ Jenkins est un outil d'intégration continue largement utilisé pour automatiser
 
 - Assurez-vous que vous disposez des éléments suivants avant de commencer :
 
-- Un projet logiciel avec un système de gestion de code source (comme Git, Subversion, etc.).
+- Un projet logiciel avec un système de gestion de code source (comme Git etc.).
 - Un serveur Jenkins opérationnel. Vous pouvez l'installer localement ou sur un serveur distant.
 
 ## **Étape 2 : Configuration initiale de Jenkins**
@@ -20,12 +20,16 @@ Jenkins est un outil d'intégration continue largement utilisé pour automatiser
 ## **Étape 3 : Création d'un nouveau projet**
 
 - Cliquez sur "Nouveau projet" sur le tableau de bord Jenkins.
+  ![image](https://github.com/kplr-training/CICD-workshops/assets/123752166/0fb8cb40-cb47-4134-acb2-512860c1a964)
 
 - Choisissez le type de projet approprié en fonction de votre projet (par exemple, "Projet Freestyle" pour un projet personnalisé ou "Pipeline" pour un pipeline Jenkinsfile).
+![image](https://github.com/kplr-training/CICD-workshops/assets/123752166/df9224f4-324f-4bbc-b358-62fe0e330291)
 
 - Configurez les détails du projet, tels que le nom et la description.
+![image](https://github.com/kplr-training/CICD-workshops/assets/123752166/38060ffd-8213-4d41-b520-4b74fd50b6ea)
 
 - Sous la section "Gestion de code source", choisissez votre système de gestion de code source (par exemple, Git) et fournissez les informations nécessaires comme l'URL du dépôt et les informations d'identification.
+![image](https://github.com/kplr-training/CICD-workshops/assets/123752166/927f8e78-e098-4453-b9e7-f7f2859103b5)
 
 - Configurez les étapes de construction et de test en fonction de votre projet. Vous pouvez exécuter des scripts shell, des commandes Maven, etc.
 
@@ -34,6 +38,8 @@ Jenkins est un outil d'intégration continue largement utilisé pour automatiser
 ## **Étape 4 : Déclenchement de l'intégration**
 
 - Sur la page de détails du projet, cliquez sur "Construire maintenant" pour déclencher manuellement le processus d'intégration.
+  ![image](https://github.com/kplr-training/CICD-workshops/assets/123752166/9347bb50-910b-418a-8e71-19af2928bd8e)
+
 
 - Vous pouvez également configurer des déclencheurs automatiques, tels que des déclencheurs de code (sur la base de commits), des minuteries, etc.
 
